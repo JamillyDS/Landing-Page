@@ -2,7 +2,14 @@
 
 ###
 
-<p align="left">Minha primeira Landing Page focada em aprender novos concietos em css, além servir como treino para me desenvolver os conseitos básicos de front-end. Estou estudando para me tornar full-stack😋</p>
+<p align="left">Desenvolvi minha primeira landing page com foco em aprender e aplicar novos conceitos de CSS.
+
+Esse projeto foi uma ótima oportunidade para praticar estruturação, estilização e organização de layouts, além de contribuir para o meu desenvolvimento como programadora.
+
+Atualmente, estou em processo de aprendizado para me tornar uma desenvolvedora full-stack 😋
+
+Ficarei muito feliz em receber feedbacks e sugestões de melhoria!
+</p>
 
 ###
 
