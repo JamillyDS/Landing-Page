@@ -41,7 +41,7 @@ body{
 }
 
 .container{
-    background-image: url('src/fundo.jpg');
+    background-image: url('fundo.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
