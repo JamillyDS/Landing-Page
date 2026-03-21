@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --background: #68462b;
+    --color1: #070001;
+    --color2: #33605a;
+    --color3: #91a398;
+    --color4: #e9e0d1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #68462b;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.container-cabe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #33605a;
+    padding: 12px;
+    font-size: 70%;
+    color: #e9e0d1;
+}
+
+.container-cabe a{
+    color: #e9e0d1;
+    transition: all 0.3s ease;
+}
+
+.container-cabe a:hover{
+    color: #070001;
+}
+
+.container{
+    background-image: url('src/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.title2{
+    margin: 2%;
+    font-size: 300%;
+    color: #fff;
+    border-radius: 22px;
+    padding: 0.3%;
+}
+
+.container span{
+    color: #421906;
+    background-color: #e9e0d1;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+    color: #e9e0d1;
+    margin: 2%;
+    font-size: 150%;
+}
+
+.menu1 img{
+    background-color: #070001;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.sabor1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sabor1:hover{
+    color: #070001;
+}
+
+.sabor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sabor2:hover{
+    color: #070001;
+}
+
+.sabor3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sabor3:hover{
+    color: #070001;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    color: #68462b;
+    margin: 2%;
+    background-color: #e9e0d1;
+    font-size: 100%;
+    border-radius: 28px;
+}
+
+.container2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    padding: 0.2%;
+}
+
+.text-praice{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 0.3%;
+    font-size: 200%;
+}
+
+.text{
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+    text-wrap: break-word;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #33605a;
+    color: #e9e0d1;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: #070001;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+    color: #e9e0d1;
+    font-size: 150%;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0.2%;
+}
+
+.pessoa1{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9e0d1;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0.2%;
+}
+
+.pessoa2{
+    width: 45%;
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0.2%;
+}
+
+.pessoa3{
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9e0d1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    color: #e9e0d1;
+    background-color: #33605a;
+}
+
+.fa-linkedin{
+    color: #e9e0d1;
+    transition: all 0.3s ease;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover{
+    color: #070001;
+}
